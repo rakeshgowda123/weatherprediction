@@ -1,0 +1,108 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+body {
+    /* background: linear-gradient(rgb(221, 100, 39), rgb(64, 206, 237))no-repeat; */
+    background: url(/img/beautiful-orange-sky-clouds-sunset_692702-3629.avif) no-repeat;
+    background-size: cover;
+    height: 60em;
+    width: inherit;
+
+}
+
+button {
+    height: 50px;
+    width: 50px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+}
+.main-1{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 9px 9px rgb(5, 6, 6);
+    width: 70em;
+    height: 30em;
+    /* position: relative; */
+    top: 9em;
+    position: relative;
+    gap: 30px;
+    visibility: hidden;
+    /* background: url(/img/astronomy-1867616_1280.jpg) no-repeat; */
+    background: linear-gradient(rgb(18, 18, 212),rgb(236, 236, 10));
+background-size: cover;
+}
+.main-1 h3{
+    text-decoration: underline;
+}
+.main-1 div{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 17em;
+    width: 9em;
+    box-shadow: 10px 9px 9px rgb(13, 14, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgb(18, 101, 28) , rgb(25, 196, 238));
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 30px;
+    box-shadow: 10px 9px 9px rgb(15, 17, 16);
+    width: 30em;
+    height: 16em;
+    background: url(/img/thunderstorm-3625405_1280.jpg) no-repeat;
+    /* background: linear-gradient(skyblue,blue); */
+background-size: cover;
+}
+
+.content img {
+    height: 100px;
+}
+
+.content input {
+    height: 30px;
+    width: 20em;
+    border-radius: 5px;
+    border: solid black;
+    border: none;
+}
+
+.content button {
+    position: relative;
+    top: 20px;
+    height: 30px;
+    width: 21em;
+    border-radius: 5px;
+    
+}
+.content input[placeholder]{
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.main-1 img{
+    height: 5em;
+    width: 7em;
+}
